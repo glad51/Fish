@@ -4,7 +4,7 @@ Android自定义View-会动的鱼
 
 ## 效果截图 
 <div class="container">
-  <img src="images/finsh.gif" width="300" height="400" alt="Centered Image">
+  <img src="images/finsh.gif" width="300" height="500" alt="Centered Image">
 </div>
 
 
