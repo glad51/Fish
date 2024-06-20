@@ -60,10 +60,15 @@ public class FishDrawable extends Drawable {
 
     private void init() {
         mPath = new Path();
+        //画笔
         mPaint = new Paint();
+        //抗锯齿
         mPaint.setStyle(Paint.Style.FILL);
+        //画笔类型填充
         mPaint.setAntiAlias(true);
+        //防抖
         mPaint.setDither(true);
+        //设置颜色
         mPaint.setARGB(OTHER_ALPHA, 244, 10, 22);
 
         middlePoint = new PointF(4.19f * HEAD_RADIUS, 4.19f * HEAD_RADIUS);
@@ -251,11 +256,20 @@ public class FishDrawable extends Drawable {
     }
 
 
+    /**
+     * 设置透明度的方法
+     * @param i
+     */
     @Override
     public void setAlpha(int i) {
         mPaint.setAlpha(i);
     }
 
+    /**
+     * 设置一个颜色过滤器，那么在绘制出来之前，被绘制内容的每一个像素都会被颜色过滤器改变
+     * @param colorFilter The color filter to apply, or {@code null} to remove the
+     *            existing color filter
+     */
     @Override
     public void setColorFilter(@Nullable ColorFilter colorFilter) {
         mPaint.setColorFilter(colorFilter);
