@@ -143,6 +143,6 @@ OA*OB=(Ax-Ox)(Bx-Ox)+(Ay-Oy)*(By-Oy)
 
 ## PathMeasure
 mPathMeasure.getPosTan(float distance, float pos[], float tan[])，参数信息:
-Ødistance : 这个参数就是确定要获取路径上哪个位置的点
-Øpos[] :根据distance返回点的坐标信息并保存在传入的pos[]内， X保存在 pos[0], Y则在pos[1]
-Øtan[] :根据distance返回点的角度信息并保存传入tan[]内，主要结合float degree = (float) (Math.atan2(mTan[1], mTan[0]) * 180 / Math.PI);
+distance : 这个参数就是确定要获取路径上哪个位置的点
+pos[] :根据distance返回点的坐标信息并保存在传入的pos[]内， X保存在 pos[0], Y则在pos[1]
+tan[] :根据distance返回点的角度信息并保存传入tan[]内，主要结合float degree = (float) (Math.atan2(mTan[1], mTan[0]) * 180 / Math.PI);
