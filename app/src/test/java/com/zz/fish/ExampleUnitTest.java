@@ -1,4 +1,4 @@
-package com.enjoy.fish;
+package com.zz.fish;
 
 import org.junit.Test;
 
