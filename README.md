@@ -4,8 +4,9 @@ Android自定义View-会动的鱼
 
 ## 效果截图 
 <div class="container">
-  <img src="images/finsh.webm" alt="Centered Image">
+  <img src="images/finsh.gif" alt="Centered Image">
 </div>
+
 
 实现步骤:
 1. 实现小鱼的绘制
